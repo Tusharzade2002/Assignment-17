@@ -45,12 +45,30 @@
       justify-content: center;
       background-color: #F0F8FF;
       border-radius: 10px;
+      position: relative;
     }
     .img1{
       height: 400px;
       border-radius: 5px;
       text-align: center;
       margin-top: 20px;
+    }
+    .bgicon{
+        position: absolute;
+        background-color: rgb(239, 81, 53);
+        height: 70px;
+        width: 70px;
+        top: 76%;
+        right: 50px;
+        border-radius: 50%;
+       
+    }
+    .icon{
+        height: 40px;
+        position: absolute;
+        background-color: transparent;
+        top: 22%;
+        right: 11px;
     }
 </style>
 <body>
@@ -64,12 +82,22 @@
     <div class="main">
         <div class="card">
           <img class="img1"  src="./fRWjtotRdR8OXrp6jHHL4OUWMqh.jpg"/>
+          <div class="bgicon">
+            <img  class="icon" src="./play-button-arrowhead.png"/>
+          </div>
         </div>
+
         <div class="card">
             <img class="img1"  src=".//images (3).jpeg"/>
+            <div class="bgicon">
+                <img  class="icon" src="./play-button-arrowhead.png"/>
+              </div>
           </div>
           <div class="card">
             <img class="img1"  src="./images.jpeg"/>
+            <div class="bgicon">
+                <img  class="icon" src="./play-button-arrowhead.png"/>
+              </div>
           </div>
     </div>
 </body>
